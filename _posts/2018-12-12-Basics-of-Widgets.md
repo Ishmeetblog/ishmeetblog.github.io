@@ -1,8 +1,4 @@
 ---
-published: false
----
-
----
 layout: post
 title: Basics of Widgets!
 ---
