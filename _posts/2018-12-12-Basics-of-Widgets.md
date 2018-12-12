@@ -1,8 +1,10 @@
+
 ---
-published: false
 layout: post
----
-## The Basics of Widgets
+title: Basics of Widgets!
+------
+
+
 
 To create an App Widget, you need the following:
 
