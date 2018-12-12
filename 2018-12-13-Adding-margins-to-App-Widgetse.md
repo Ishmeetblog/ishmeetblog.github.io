@@ -4,15 +4,15 @@ Widgets should not generally extend to screen edges and should not visually be f
 As of Android 4.0, app widgets are automatically given padding between the widget frame and the app widget's bounding box to provide better alignment with other widgets and icons on the user's home screen. To take advantage of this strongly recommended behavior, set your application's targetSdkVersion to 14 or greater.
 
 It's easy to write a single layout that has custom margins applied for earlier versions of the platform, and has no extra margins for Android 4.0 and greater:
+1. Set your application's targetSdkVersion to 14 or greater.
+1. Create a layout such as the one below, that references a dimension resource for its margins:
 
-Set your application's targetSdkVersion to 14 or greater.
-Create a layout such as the one below, that references a dimension resource for its margins:
 ```<FrameLayout
   android:layout_width="match_parent"
   android:layout_height="match_parent"
   android:padding="@dimen/widget_margin">
-
-  <LinearLayout
+ 
+    <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
@@ -20,10 +20,19 @@ Create a layout such as the one below, that references a dimension resource for 
     …
   </LinearLayout>
 
+
+
 </FrameLayout>
-Create two dimensions resources, one in res/values/ to provide the pre-Android 4.0 custom margins, and one in res/values-v14/ to provide no extra padding for Android 4.0 widgets:
+```
+1. Create two dimensions resources, one in res/values/ to provide the pre-Android 4.0 custom margins, and one in 
+1. res/values-v14/ to provide no extra padding for Android 4.0 widgets:
+
+
+```
 res/values/dimens.xml:
 <dimen name="widget_margin">8dp</dimen>
 res/values-v14/dimens.xml:
 <dimen name="widget_margin">0dp</dimen>
+```
+
 Another option is to simply build extra margins into your nine-patch background assets by default, and provide different nine-patches with no margins for API level 14 or later.
