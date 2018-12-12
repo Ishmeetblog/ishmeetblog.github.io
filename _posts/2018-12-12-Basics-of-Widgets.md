@@ -29,3 +29,15 @@ The following sections describe how to set up each of these components.
                android:resource="@xml/example_appwidget_info" />
 </receiver>
 ```
+
+
+The `<receiver>` element requires the android:name attribute, which specifies the AppWidgetProvider used by the App Widget.
+
+The `<intent-filter>` element must include an <action> element with the android:name attribute. This attribute specifies that the AppWidgetProvider accepts the ACTION_APPWIDGET_UPDATE broadcast. This is the only broadcast that you must explicitly declare. The AppWidgetManager automatically sends all other App Widget broadcasts to the AppWidgetProvider as necessary.
+
+The `<meta-data>` element specifies the AppWidgetProviderInfo resource and requires the following attributes:
+
+```
+android:name - Specifies the metadata name. Use android.appwidget.provider to identify the data as the AppWidgetProviderInfo descriptor.
+android:resource - Specifies the AppWidgetProviderInfo resource location.
+```
