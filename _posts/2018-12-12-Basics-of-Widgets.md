@@ -1,8 +1,11 @@
+---
+published: false
+---
 
 ---
 layout: post
 title: Basics of Widgets!
-------
+---
 
 
 
@@ -20,7 +23,7 @@ To create an App Widget, you need the following:
 The following sections describe how to set up each of these components.
 
 
-```java
+```
 <receiver android:name="ExampleAppWidgetProvider" >
     <intent-filter>
         <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -29,4 +32,3 @@ The following sections describe how to set up each of these components.
                android:resource="@xml/example_appwidget_info" />
 </receiver>
 ```
-
