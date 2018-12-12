@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Basics of Widgets!
+published: true
 ---
 
 
 
-To create an App Widget, you need the following:
+### To create an App Widget, you need the following:
 
 1. AppWidgetProviderInfo object
 1. Describes the metadata for an App Widget, such as the App Widget's layout, update frequency, and the AppWidgetProvider class. This should be defined in XML.
