@@ -1,5 +1,6 @@
 ---
-published: false
+layout: post
+title: You're up and running!
 ---
 The `AppWidgetProviderInfo` defines the essential qualities of an App Widget, such as its minimum layout dimensions, its initial layout resource, how often to update the App Widget, and (optionally) a configuration Activity to launch at create-time. Define the `AppWidgetProviderInfo` object in an XML resource using a single `<appwidget-provider>` element and save it in the project's res/xml/ folder.
 
