@@ -1,5 +1,6 @@
 ---
-published: false
+layout: post
+title: How is Arcore Superior from others
 ---
 Enviroment understanding with arcore
 
