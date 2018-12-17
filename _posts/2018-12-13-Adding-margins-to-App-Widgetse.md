@@ -1,3 +1,8 @@
+---
+layout: post
+title:Adding margins to App Widgets
+---
+
 ## Adding margins to App Widgets
 Widgets should not generally extend to screen edges and should not visually be flush with other widgets, so you should add margins on all sides around your widget frame.
 
