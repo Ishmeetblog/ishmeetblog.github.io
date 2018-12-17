@@ -1,7 +1,8 @@
 ---
-published: false
+layout: post
+title: Playing with Motion Tracking in Unity3D
 ---
-Playing with Motion Tracking in Unity3D
+
 
 
 In the app we will be building, we will not be anchoring the objects to a plane as we are just focussing on the motion tracking component of ARCore and not the complete environmental understanding.
