@@ -1,6 +1,8 @@
 ---
-published: false
+layout: post
+title: What is Unity?
 ---
+
 ## What is Unity?
 
 Unity gives users the ability to create games in both 2D and 3D, and the engine offers a primary scripting API in C#, for both the Unity editor in the form of plugins, and games themselves, as well as drag and drop functionality. Prior to C# being the primary programming language used for the engine, it previously supported Boo, which was removed in the Unity 5. 
