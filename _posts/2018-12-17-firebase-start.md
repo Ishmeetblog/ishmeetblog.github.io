@@ -1,7 +1,8 @@
 ---
-published: false
+layout: post
+title: what is firebase
 ---
-what is firebase
+
 
 Firebase is a mobile and web application development platform developed by Firebase, Inc. in 2011, then acquired by Google in 2014. As of October 2018, the Firebase platform has 18 products[6] which are used by 1.5 million apps.
 
