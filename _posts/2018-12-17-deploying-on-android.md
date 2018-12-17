@@ -1,5 +1,6 @@
 ---
-published: false
+layout: post
+title:  deploying an apk
 ---
 **To deploy an apk to android devices from unity we need the following:**
 
