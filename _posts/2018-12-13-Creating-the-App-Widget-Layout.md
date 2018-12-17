@@ -1,6 +1,6 @@
 ---
 layout: post
-title:Creating the App Widget Layout
+title: Creating the App Widget Layout
 ---
 
 ## Creating the App Widget Layout
