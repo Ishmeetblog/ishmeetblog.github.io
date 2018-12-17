@@ -1,3 +1,8 @@
+---
+layout: post
+title:Creating the App Widget Layout
+---
+
 ## Creating the App Widget Layout
 
 You must define an initial layout for your App Widget in XML and save it in the project's res/layout/ directory. You can design your App Widget using the View objects listed below, but before you begin designing your App Widget, please read and understand the App Widget Design Guidelines.
