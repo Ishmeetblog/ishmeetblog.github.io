@@ -1,7 +1,8 @@
 ---
-published: false
+layout: post
+title: Motion tracking in arcore
 ---
-Motion tracking in arcore
+
 
 The mobile hardware can be Bradly categorised into 3 categories based on their functionality:-
 
