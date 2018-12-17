@@ -1,7 +1,9 @@
 ---
-published: false
+layout: post
+title: Using the AppWidgetProvider Class
 ---
-Using the AppWidgetProvider Class
+
+## Using the AppWidgetProvider Class
 The AppWidgetProvider class extends BroadcastReceiver as a convenience class to handle the App Widget broadcasts. The AppWidgetProvider receives only the event broadcasts that are relevant to the App Widget, such as when the App Widget is updated, deleted, enabled, and disabled. When these broadcast events occur, the AppWidgetProvider receives the following method calls:
 
 `onUpdate()`
