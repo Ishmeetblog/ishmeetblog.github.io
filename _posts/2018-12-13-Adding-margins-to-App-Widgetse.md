@@ -1,6 +1,6 @@
 ---
 layout: post
-title:Adding margins to App Widgets
+title: Adding margins to App Widgets
 ---
 
 ## Adding margins to App Widgets
