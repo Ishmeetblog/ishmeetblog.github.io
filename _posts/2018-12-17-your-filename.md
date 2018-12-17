@@ -1,5 +1,6 @@
 ---
-published: false
+layout: post
+title: Uses of firebase
 ---
 uses of firebase
 
