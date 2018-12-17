@@ -1,7 +1,7 @@
 ---
-published: false
+layout: post
+title: why we choose to work with arcore
 ---
-why we choose to work with arcore
 
 
 Ever noticed why most augmented reality apps require you to more your camera around the room to detect surfaces? This is because the app needs to build a world of its own. ARCore is no different.
