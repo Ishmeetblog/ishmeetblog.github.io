@@ -1,6 +1,4 @@
----
-published: false
----
+
 ---
 layout: post
 title: Hands on 3D modelling
