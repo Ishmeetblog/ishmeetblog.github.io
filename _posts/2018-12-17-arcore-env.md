@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How is Arcore Superior from others
+title: Motion tracking
 ---
 Enviroment understanding with arcore
 
